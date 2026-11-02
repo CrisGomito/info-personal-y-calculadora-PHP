@@ -1,0 +1,150 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    color: #333;
+    margin: 0;
+    padding: 30px 20px;
+    min-height: 100vh;
+}
+
+.contenedor {
+    background-color: #ffffff;
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #1e3c72;
+    font-size: 26px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #3b82f6;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #2a5298;
+    font-size: 20px;
+    margin-top: 25px;
+    border-bottom: 1px solid #e2e8f0;
+    padding-bottom: 6px;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 10px 0;
+    color: #475569;
+}
+
+ul {
+    margin: 10px 0;
+    padding-left: 22px;
+}
+
+li {
+    font-size: 15px;
+    margin-bottom: 6px;
+    color: #475569;
+}
+
+strong {
+    color: #1e293b;
+}
+
+/* Contenedor de la Calculadora Móvil */
+.contenedor-calc {
+    background-color: #ffffff;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.contenedor-calc h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.calculator {
+    background: #0f172a;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: inset 0 2px 5px rgba(255,255,255,0.1);
+    border: 1px solid #334155;
+}
+
+.calc-screen {
+    width: 100%;
+    background: #1e293b;
+    color: #38bdf8;
+    font-size: 28px;
+    font-family: monospace;
+    text-align: right;
+    padding: 15px;
+    border: 1px solid #334155;
+    border-radius: 12px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.calc-keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+.calc-keypad button {
+    background-color: #334155;
+    color: #f8fafc;
+    border: none;
+    border-radius: 12px;
+    padding: 16px 0;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.calc-keypad button:hover {
+    background-color: #475569;
+    transform: translateY(-1px);
+}
+
+.calc-keypad button:active {
+    transform: translateY(1px);
+}
+
+.btn-op {
+    background-color: #f59e0b !important;
+    color: #ffffff !important;
+}
+
+.btn-op:hover {
+    background-color: #d97706 !important;
+}
+
+.btn-action {
+    background-color: #64748b !important;
+    color: #ffffff !important;
+}
+
+.btn-action:hover {
+    background-color: #475569 !important;
+}
+
+.btn-eq {
+    background-color: #10b981 !important;
+    color: #ffffff !important;
+    grid-column: span 1;
+}
+
+.btn-eq:hover {
+    background-color: #059669 !important;
+}
